@@ -141,6 +141,15 @@ memo_score(noun(yhteys_2), date(2020, 2, 20), 4).
 memo_score(noun(perustelu), date(2020, 2, 20), 4).
 memo_score(noun(nuha), date(2020, 2, 20), 3).
 memo_score(noun(päiväunet), date(2020, 2, 20), 3).
+memo_score(conj(vaikka), date(2020, 2, 20), 0).
+memo_score(conj(kunnes), date(2020, 2, 20), 4).
+memo_score(conj('sekä - että'), date(2020, 2, 20), 0).
+memo_score(conj('vaan'), date(2020, 2, 20), 3).
+memo_score(conj(sillä), date(2020, 2, 20), 0).
+memo_score(conj('joko - tai'), date(2020, 2, 20), 3).
+memo_score(phrase('jotain lisättävää'), date(2020, 2, 20), 3).
+memo_score(phrase('sitä paitsi'), date(2020, 2, 20), 0).
+
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
