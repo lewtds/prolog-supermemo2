@@ -212,15 +212,15 @@ memo_score(conj(sillä), date(2020, 2, 20), 4).
 next(Entry) :-
     find_entry(Entry),
     latest_memo_nth(Entry, N),
-    memo_interval(Entry, N, Interval),
+    memo_interval(Entry, N, RecommendedStudyInterval),
 (
     nth_score(Entry, N, LastDate, _),
     date(Today),
-    date_add(LastDate, Interval, DeadLine),
-    date_interval(Today, DeadLine, DaysInterval days),
-    DaysInterval > 0
+    date_add(LastDate, RecommendedStudyInterval, DeadLine),
+    date_interval(Today, DeadLine, DaysPastDeadline days),
+    DaysPastDeadline >= 0
 ;
-    Interval = 0
+    RecommendedStudyInterval = 0
 ).
 
 below_four(Entry) :-
