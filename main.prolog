@@ -151,6 +151,9 @@ meaning(verb(ladata), 'to download').
 
 meaning(verb(tyhjentää), 'to empty, to reset').
 
+meaning(conj(mikäli), 'if, provided that, in the event that').
+example(conj(mikäli), 'Mikäli tämän ajan kuluessa varausta ei makseta, varauksenne peruuntuu.').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
