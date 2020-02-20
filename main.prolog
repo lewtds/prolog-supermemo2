@@ -113,6 +113,44 @@ comes_from(adj(liittyvä), verb(liittyä)).
 
 meaning(verb(liittyä), 'to join (a group), to be related to, to be part of').
 
+meaning(verb(muokata), 'to edit/modify').
+
+meaning(adj(yleinen), 'general').
+
+meaning(adv(yleensä), 'usually, generally').
+example(adv(yleensä), 'He menevät yleensä ulos lauantaisin.').
+
+meaning(noun(verkkosivusto), 'website').
+etymology(noun(verkkosivusto), 'verkko (net) + sivu (page) + -sto (place)').
+
+meaning(noun(viesti), 'message').
+
+meaning(verb(kumota), 'to undo, cancel').
+
+meaning(noun(tallennustila), 'storage space').
+
+meaning(noun(tausta), 'background').
+
+meaning(noun(ohjaus), 'control').
+comes_from(noun(ohjaus), verb(ohjata)).
+
+meaning(verb(ohjata), 'control').
+
+meaning(noun(kirkkaus), 'brightness').
+comes_from(noun(kirkkaus), adj(kirkas)).
+
+meaning(adj(kirkas), 'bright').
+
+meaning(noun(taustakuva), 'wallpaper').
+
+meaning(noun(nauha), 'tape, ribbon, band, string').
+
+meaning(noun(mittanauha), 'measuring tape').
+
+meaning(verb(ladata), 'to download').
+
+meaning(verb(tyhjentää), 'to empty, to reset').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
