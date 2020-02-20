@@ -15,6 +15,7 @@ entry_type(adv).
 entry_type(adj).
 entry_type(pron).
 entry_type(noun).
+entry_type(postposition).
 
 word(W) :- verb(W).
 word(W) :- adj(W).
@@ -29,6 +30,7 @@ pron(A) :- meaning(pron(A), _).
 noun(A) :- meaning(noun(A), _).
 conj(C) :- meaning(conj(C), _).
 phrase(C) :- meaning(phrase(C), _).
+postposition(P) :- meaning(postposition(P), _).
 
 meaning(verb(antaa), 'to give').
 
@@ -166,6 +168,9 @@ example(noun(tiski), 'tehdä tilauksesi tiskillä').
 
 meaning(adv(etukäteen), 'in advance').
 etymology(adv(etukäteen), 'etu- (“fore-”) +‎ käteen (“hand”)').
+
+meaning(postposition(kuluessa), 'within').
+example(postposition(kuluessa), 'He soittavat meille viikon kuluessa.').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
