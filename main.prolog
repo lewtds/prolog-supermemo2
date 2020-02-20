@@ -191,7 +191,7 @@ memo_score(phrase('sitä paitsi'), date(2020, 2, 20), 0).
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
-    entry_type(Type), Entry =.. [Type, _], call(Entry),
+    find_entry(Entry),
     latest_memo_nth(Entry, N),
     memo_interval(Entry, N, Interval),
 (
@@ -203,6 +203,15 @@ next(Entry) :-
 ;
     Interval = 0
 ).
+
+below_four(Entry) :-
+    find_entry(Entry),
+    latest_memo_nth(Entry, N),
+    nth_score(Entry, N, _, Score),
+    Score < 4.
+
+find_entry(Entry) :-
+    entry_type(Type), Entry =.. [Type, _], call(Entry).
 
 memo_interval(_, 0, 0) :- !.
 memo_interval(_, 1, 1) :- !.
