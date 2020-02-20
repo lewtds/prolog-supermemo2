@@ -27,6 +27,8 @@ adj(A) :- meaning(adj(A), _).
 adv(A) :- meaning(adv(A), _).
 pron(A) :- meaning(pron(A), _).
 noun(A) :- meaning(noun(A), _).
+conj(C) :- meaning(conj(C), _).
+phrase(C) :- meaning(phrase(C), _).
 
 meaning(verb(antaa), 'to give').
 
