@@ -154,6 +154,19 @@ meaning(verb(tyhjentää), 'to empty, to reset').
 meaning(conj(mikäli), 'if, provided that, in the event that').
 example(conj(mikäli), 'Mikäli tämän ajan kuluessa varausta ei makseta, varauksenne peruuntuu.').
 
+meaning(noun(vahinko), 'mishap, accident, damage').
+
+meaning(adv(liikaa), 'too much').
+example(adv(liikaa), 'Elämässä ei ole koskaan liikaa laulua ja hyvää seuraa.').
+
+meaning(verb(kutsua), 'to invite').
+
+meaning(noun(tiski), 'counter (bar)').
+example(noun(tiski), 'tehdä tilauksesi tiskillä').
+
+meaning(adv(etukäteen), 'in advance').
+etymology(adv(etukäteen), 'etu- (“fore-”) +‎ käteen (“hand”)').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
