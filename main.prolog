@@ -16,6 +16,7 @@ entry_type(adj).
 entry_type(pron).
 entry_type(noun).
 entry_type(postposition).
+entry_type(interjection).
 
 word(W) :- verb(W).
 word(W) :- adj(W).
@@ -31,6 +32,7 @@ noun(A) :- meaning(noun(A), _).
 conj(C) :- meaning(conj(C), _).
 phrase(C) :- meaning(phrase(C), _).
 postposition(P) :- meaning(postposition(P), _).
+interjection(I) :- meaning(interjection(I), _).
 
 meaning(verb(antaa), 'to give').
 
@@ -171,6 +173,12 @@ etymology(adv(etukäteen), 'etu- (“fore-”) +‎ käteen (“hand”)').
 
 meaning(postposition(kuluessa), 'within').
 example(postposition(kuluessa), 'He soittavat meille viikon kuluessa.').
+
+meaning(interjection('kissan viikset'), 'nonsense, rubbish').
+
+meaning(noun(viikset), 'mustache').
+
+meaning(verb(korostaa), 'emphasize, highlight').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
