@@ -92,8 +92,8 @@ example(noun(nuha), 'Minulla on nuha ja olen nukkunut huonosti.').
 meaning(noun(päiväunet), 'nap').
 example(noun(päiväunet), 'Olen sekä nukkunut päiväunet että juonut kuumaa mehua.').
 
-meaning(conj('joko — tai'), 'either - or').
-example(conj('joko — tai'), 'Me ostamme joko kissan tai koiran.').
+meaning(conj('joko - tai'), 'either - or').
+example(conj('joko - tai'), 'Me ostamme joko kissan tai koiran.').
 
 meaning(verb(levätä), 'to rest').
 example(verb(levätä), 'Lepään kotona').
