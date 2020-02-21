@@ -3,6 +3,7 @@
 :- discontiguous verb/1.
 :- discontiguous conj/1.
 :- discontiguous phrase/1.
+:- discontiguous etymology/2.
 :- discontiguous meaning/2.
 :- discontiguous example/2.
 :- discontiguous comes_from/2.
