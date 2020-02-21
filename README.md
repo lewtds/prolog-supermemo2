@@ -9,5 +9,5 @@ Integrated tool for learning Finnish with Prolog. It's a WordNet database and a 
 - `[main].`
 - `next(Entry).` and press `;` for more entries to study
 - Manually rate the score and add memo entries to the file
-- At the end of the session, call `below_four(Entry)` to study entries that scored below 4. 
+- At the end of the session, reevaluate the file again to update the memo entries (`[main].`) then call `below_four(Entry)` to study entries that scored below 4. 
   Continue the repetitions until all of these items score at least four.
