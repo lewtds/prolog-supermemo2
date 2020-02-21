@@ -198,6 +198,8 @@ comes_from(noun(ominaisuus), adj(ominainen)).
 
 meaning(adj(ominainen), 'typical, characteristic').
 
+meaning(noun(koru), 'jewel').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
