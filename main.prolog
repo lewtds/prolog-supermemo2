@@ -181,6 +181,23 @@ meaning(noun(viikset), 'mustache').
 
 meaning(verb(korostaa), 'emphasize, highlight').
 
+meaning(conj(jotta), 'so that').
+example(conj(jotta), 'Nousimme aikaisin, jotta näkisimme auringonnousun.').
+
+meaning(noun(ikä), 'age, lifetime').
+
+meaning(noun(käyttöikä), '(battery\'s lifespan').
+comes_from(noun(käyttöikä), noun(ikä)).
+
+meaning(noun(valinta), 'selection, choice').
+
+meaning(adj(virallinen), 'official').
+
+meaning(noun(ominaisuus), 'property, quality, feature').
+comes_from(noun(ominaisuus), adj(ominainen)).
+
+meaning(adj(ominainen), 'typical, characteristic').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
