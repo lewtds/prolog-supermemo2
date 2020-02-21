@@ -238,6 +238,43 @@ memo_score(noun('päiväunet'), date(2020, 2, 20), 4).
 memo_score(conj(vaikka), date(2020, 2, 20), 4).
 memo_score(conj(sillä), date(2020, 2, 20), 4).
 
+memo_score(conj('joko - tai'), date(2020, 2, 21), 5).
+memo_score(conj('mikäli'), date(2020, 2, 21), 4).
+memo_score(verb('muokata'), date(2020, 2, 21), 4).
+memo_score(verb('kumota'), date(2020, 2, 21), 4).
+memo_score(verb('ohjata'), date(2020, 2, 21), 3).
+memo_score(verb('ladata'), date(2020, 2, 21), 5).
+memo_score(verb('tyhjentää'), date(2020, 2, 21), 4).
+memo_score(verb('kutsua'), date(2020, 2, 21), 4).
+memo_score(verb('korostaa'), date(2020, 2, 21), 4).
+memo_score(adv('yleensä'), date(2020, 2, 21), 4).
+memo_score(adv('liikaa'), date(2020, 2, 21), 3).
+memo_score(adv('etukäteen'), date(2020, 2, 21), 4).
+memo_score(adj('yleinen'), date(2020, 2, 21), 5).
+memo_score(adj('kirkas'), date(2020, 2, 21), 4).
+memo_score(noun('verkkosivusto'), date(2020, 2, 21), 5).
+memo_score(noun('viesti'), date(2020, 2, 21), 5).
+memo_score(noun('viesti'), date(2020, 2, 21), 5).
+memo_score(noun('tallennustila'), date(2020, 2, 21), 4).
+memo_score(noun('tausta'), date(2020, 2, 21), 3).
+memo_score(noun('ohjaus'), date(2020, 2, 21), 4).
+memo_score(noun('kirkkaus'), date(2020, 2, 21), 4).
+memo_score(noun('taustakuva'), date(2020, 2, 21), 4).
+memo_score(noun('nauha'), date(2020, 2, 21), 0).
+memo_score(noun('mittanauha'), date(2020, 2, 21), 4).
+memo_score(noun('vahinko'), date(2020, 2, 21), 4).
+memo_score(noun('tiski'), date(2020, 2, 21), 4).
+memo_score(noun('viikset'), date(2020, 2, 21), 0).
+memo_score(postposition('kuluessa'), date(2020, 2, 21), 3).
+memo_score(interjection('kissan viikset'), date(2020, 2, 21), 4).
+
+memo_score(verb('ohjata'), date(2020, 2, 21), 5).
+memo_score(adv('liikaa'), date(2020, 2, 21), 4).
+memo_score(noun('tausta'), date(2020, 2, 21), 4).
+memo_score(noun('nauha'), date(2020, 2, 21), 4).
+memo_score(noun('viikset'), date(2020, 2, 21), 4).
+memo_score(postposition('kuluessa'), date(2020, 2, 21), 4).
+
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
     find_entry(Entry),
