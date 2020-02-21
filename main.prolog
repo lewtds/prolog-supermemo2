@@ -278,8 +278,7 @@ memo_score(postposition('kuluessa'), date(2020, 2, 21), 4).
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
     find_entry(Entry),
-    latest_memo_nth(Entry, N),
-    memo_interval(Entry, N, RecommendedStudyInterval),
+    latest_memo_interval(Entry, N, RecommendedStudyInterval),
 (
     nth_score(Entry, N, LastDate, _),
     date(Today),
@@ -298,6 +297,10 @@ below_four(Entry) :-
 
 find_entry(Entry) :-
     entry_type(Type), Entry =.. [Type, _], call(Entry).
+
+latest_memo_interval(Entry, N, I) :-
+    latest_memo_nth(Entry, N),
+    memo_interval(Entry, N, I).
 
 memo_interval(_, 0, 0) :- !.
 memo_interval(_, 1, 1) :- !.
