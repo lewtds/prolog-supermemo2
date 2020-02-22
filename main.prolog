@@ -294,6 +294,16 @@ memo_score(noun('nauha'), date(2020, 2, 21), 4).
 memo_score(noun('viikset'), date(2020, 2, 21), 4).
 memo_score(postposition('kuluessa'), date(2020, 2, 21), 4).
 
+memo_score(conj('jotta'), date(2020, 2, 22), 4).
+memo_score(adj('virallinen'), date(2020, 2, 22), 5).
+memo_score(adj('ominainen'), date(2020, 2, 22), 2).
+memo_score(noun('ikä'), date(2020, 2, 22), 4).
+memo_score(noun('käyttöikä'), date(2020, 2, 22), 4).
+memo_score(noun('valinta'), date(2020, 2, 22), 5).
+memo_score(noun('ominaisuus'), date(2020, 2, 22), 4).
+memo_score(noun('koru'), date(2020, 2, 22), 4).
+memo_score(adj('ominainen'), date(2020, 2, 22), 4).
+
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
     find_entry(Entry),
