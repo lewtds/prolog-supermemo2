@@ -291,7 +291,7 @@ example(verb(laittaa), 'Laita sanat oikeaan laatikkoon.').
 
 meaning(noun(saatavuus), 'availability').
 
-meaning(noun(veloitus), 'charge (amount of money levied for a service)').
+meaning(noun(veloitus), 'fee, charge (amount of money levied for a service)').
 
 meaning(noun(valokuitu), 'optical fibre').
 
@@ -398,6 +398,69 @@ memo_score(noun('valinta'), date(2020, 2, 22), 5).
 memo_score(noun('ominaisuus'), date(2020, 2, 22), 4).
 memo_score(noun('koru'), date(2020, 2, 22), 4).
 memo_score(adj('ominainen'), date(2020, 2, 22), 4).
+
+memo_score(phrase('omin voimin'), date(2020, 2, 22), 4).
+memo_score(verb('omistaa'), date(2020, 2, 22), 0).
+memo_score(verb('viettää'), date(2020, 2, 22), 4).
+memo_score(verb('kantaa'), date(2020, 2, 22), 1).
+memo_score(verb('haitata'), date(2020, 2, 22), 4).
+memo_score(verb('levitä'), date(2020, 2, 22), 0).
+memo_score(verb('osallistua'), date(2020, 2, 22), 1).
+memo_score(verb('jännittää'), date(2020, 2, 22), 3).
+memo_score(verb('jutella'), date(2020, 2, 22), 4).
+memo_score(verb('laittaa'), date(2020, 2, 22), 4).
+memo_score(adv('nykyään'), date(2020, 2, 22), 4).
+memo_score(adv('mielellään'), date(2020, 2, 22), 4).
+memo_score(adj('eronnut'), date(2020, 2, 22), 5).
+memo_score(adj('naimisissa'), date(2020, 2, 22), 5).
+memo_score(adj('tavallinen'), date(2020, 2, 22), 2).
+memo_score(adj('tällainen'), date(2020, 2, 22), 5).
+memo_score(adj('vapaaehtoinen'), date(2020, 2, 22), 1).
+memo_score(adj('ylimääräinen'), date(2020, 2, 22), 4).
+memo_score(adj('kamala'), date(2020, 2, 22), 4).
+memo_score(adj('tyytyväinen'), date(2020, 2, 22), 4).
+memo_score(adj('satunnainen'), date(2020, 2, 22), 4).
+memo_score(pron('muutama'), date(2020, 2, 22), 4).
+memo_score(noun('maatila'), date(2020, 2, 22), 4).
+memo_score(noun('avomies'), date(2020, 2, 22), 4).
+memo_score(noun('avovaimo'), date(2020, 2, 22), 4).
+memo_score(noun('puoliso'), date(2020, 2, 22), 4).
+memo_score(noun('lakimies'), date(2020, 2, 22), 0).
+memo_score(noun('asukas'), date(2020, 2, 22), 5).
+memo_score(noun('some'), date(2020, 2, 22), 4).
+memo_score(noun('kustannus'), date(2020, 2, 22), 4).
+memo_score(noun('vapaaehtoinen'), date(2020, 2, 22), 4).
+memo_score(noun('talkootyö'), date(2020, 2, 22), 4).
+memo_score(noun('astia'), date(2020, 2, 22), 5).
+memo_score(noun('tavara'), date(2020, 2, 22), 4).
+memo_score(noun('puuhamies'), date(2020, 2, 22), 4).
+memo_score(noun('menestys'), date(2020, 2, 22), 3).
+memo_score(noun('menetys'), date(2020, 2, 22), 4).
+memo_score(noun('pakkanen'), date(2020, 2, 22), 4).
+memo_score(noun('haastattelu'), date(2020, 2, 22), 1).
+memo_score(noun('takki'), date(2020, 2, 22), 4).
+memo_score(noun('paita'), date(2020, 2, 22), 5).
+memo_score(noun('ohikulkija'), date(2020, 2, 22), 3).
+memo_score(noun('väline'), date(2020, 2, 22), 4).
+memo_score(noun('urheiluväline'), date(2020, 2, 22), 4).
+memo_score(noun('saatavuus'), date(2020, 2, 22), 3).
+memo_score(noun('veloitus'), date(2020, 2, 22), 0).
+memo_score(noun('valokuitu'), date(2020, 2, 22), 4).
+
+memo_score(verb('omistaa'), date(2020, 2, 22), 4).
+memo_score(verb('kantaa'), date(2020, 2, 22), 4).
+memo_score(verb('levitä'), date(2020, 2, 22), 4).
+memo_score(verb('osallistua'), date(2020, 2, 22), 4).
+memo_score(verb('jännittää'), date(2020, 2, 22), 4).
+memo_score(adj('tavallinen'), date(2020, 2, 22), 4).
+memo_score(adj('vapaaehtoinen'), date(2020, 2, 22), 4).
+memo_score(noun('lakimies'), date(2020, 2, 22), 4).
+memo_score(noun('menestys'), date(2020, 2, 22), 4).
+memo_score(noun('haastattelu'), date(2020, 2, 22), 4).
+memo_score(noun('ohikulkija'), date(2020, 2, 22), 4).
+memo_score(noun('saatavuus'), date(2020, 2, 22), 4).
+memo_score(noun('veloitus'), date(2020, 2, 22), 4).
+
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
