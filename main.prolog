@@ -197,6 +197,7 @@ meaning(noun(ominaisuus), 'property, quality, feature').
 comes_from(noun(ominaisuus), adj(ominainen)).
 
 meaning(adj(ominainen), 'typical, characteristic').
+example(adj(ominainen), 'Tämä on Japanille ominainen tapa.').
 
 meaning(noun(koru), 'jewel').
 
