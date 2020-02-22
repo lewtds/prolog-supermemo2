@@ -289,6 +289,12 @@ meaning(noun(urheiluväline), 'sports equipment').
 meaning(verb(laittaa), 'put, set, place').
 example(verb(laittaa), 'Laita sanat oikeaan laatikkoon.').
 
+meaning(noun(saatavuus), 'availability').
+
+meaning(noun(veloitus), 'charge (amount of money levied for a service)').
+
+meaning(noun(valokuitu), 'optical fibre').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
