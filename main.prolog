@@ -201,6 +201,94 @@ example(adj(ominainen), 'Tämä on Japanille ominainen tapa.').
 
 meaning(noun(koru), 'jewel').
 
+meaning(verb(omistaa), 'to own').
+example(verb(omistaa), 'Minä omistan talon ja maatilan.').
+
+meaning(noun(maatila), 'farm').
+
+meaning(adj(eronnut), 'divorced').
+
+meaning(verb(viettää), 'to spend time, to pass the time').
+
+meaning(adj(naimisissa), 'married').
+
+meaning(noun(avomies), 'husband').
+meaning(noun(avovaimo), 'wife').
+meaning(noun(puoliso), 'spouse').
+
+meaning(noun(lakimies), 'lawyer').
+
+meaning(verb(kantaa), 'to carry').
+example(verb(kantaa), 'Tom kantaa sinua.').
+
+meaning(noun(asukas), 'resident').
+
+meaning(verb(haitata), 'to bother, to hinder').
+example(verb(haitata), 'Kylmä ei haittaa ketään').
+
+meaning(adv(nykyään), 'recently, nowadays').
+
+meaning(adj(tavallinen), 'usual, ordinary, common, trivial, standard').
+
+meaning(phrase('omin voimin'), 'on your/their own').
+
+meaning(adj(tällainen), 'such, this kind of').
+
+meaning(noun(some), 'social media').
+
+meaning(verb(levitä), 'to spread (words)').
+example(verb(levitä), 'sana leviää nopeasti ja helposti').
+
+meaning(noun(kustannus), 'cost, expense').
+
+meaning(noun(vapaaehtoinen), 'a volunteer').
+meaning(adj(vapaaehtoinen), 'voluntary').
+
+meaning(verb(osallistua), 'to participate, to attend').
+
+meaning(adv(mielellään), 'gladly, willingly').
+
+meaning(noun(talkootyö), 'voluteer work').
+
+meaning(noun(astia), 'dish, plate').
+
+meaning(adj(ylimääräinen), 'excessive, redundant').
+
+meaning(noun(tavara), 'goods, wares, belongings').
+
+meaning(noun(puuhamies), 'organizer, especially one who works on a voluntary basis.').
+
+meaning(noun(menestys), 'success').
+meaning(noun(menetys), 'loss').
+
+meaning(verb(jännittää), 'to tense up, to feel excited and nervous').
+example(verb(jännittää), 'Mä muistan hyvin, miten mua jännitti.').
+
+meaning(adj(kamala), 'horrible').
+meaning(noun(pakkanen), 'frost').
+
+meaning(adj(tyytyväinen), 'content, happy').
+
+meaning(noun(haastattelu), 'an interview').
+
+meaning(pron(muutama), 'a few, some').
+example(pron(muutama), 'Oscar myy kolme kirja muutamalla eurolla').
+
+meaning(verb(jutella), 'to chat').
+example(verb(jutella), 'asiakas juttele hetken').
+
+meaning(noun(takki), 'jacket, coat').
+meaning(noun(paita), 'shirt').
+
+meaning(adj(satunnainen), 'random').
+meaning(noun(ohikulkija), 'passer-by').
+
+meaning(noun(väline), 'tool, equipment').
+meaning(noun(urheiluväline), 'sports equipment').
+
+meaning(verb(laittaa), 'put, set, place').
+example(verb(laittaa), 'Laita sanat oikeaan laatikkoon.').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
