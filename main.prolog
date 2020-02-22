@@ -16,7 +16,7 @@ entry_type(adv).
 entry_type(adj).
 entry_type(pron).
 entry_type(noun).
-entry_type(postposition).
+entry_type(adposition).
 entry_type(interjection).
 
 word(W) :- verb(W).
@@ -32,7 +32,7 @@ pron(A) :- meaning(pron(A), _).
 noun(A) :- meaning(noun(A), _).
 conj(C) :- meaning(conj(C), _).
 phrase(C) :- meaning(phrase(C), _).
-postposition(P) :- meaning(postposition(P), _).
+adposition(P) :- meaning(adposition(P), _).
 interjection(I) :- meaning(interjection(I), _).
 
 meaning(verb(antaa), 'to give').
@@ -172,8 +172,8 @@ example(noun(tiski), 'tehdä tilauksesi tiskillä').
 meaning(adv(etukäteen), 'in advance').
 etymology(adv(etukäteen), 'etu- (“fore-”) +‎ käteen (“hand”)').
 
-meaning(postposition(kuluessa), 'within').
-example(postposition(kuluessa), 'He soittavat meille viikon kuluessa.').
+meaning(adposition(kuluessa), 'within').
+example(adposition(kuluessa), 'He soittavat meille viikon kuluessa.').
 
 meaning(interjection('kissan viikset'), 'nonsense, rubbish').
 
@@ -285,7 +285,7 @@ memo_score(noun('mittanauha'), date(2020, 2, 21), 4).
 memo_score(noun('vahinko'), date(2020, 2, 21), 4).
 memo_score(noun('tiski'), date(2020, 2, 21), 4).
 memo_score(noun('viikset'), date(2020, 2, 21), 0).
-memo_score(postposition('kuluessa'), date(2020, 2, 21), 3).
+memo_score(adposition('kuluessa'), date(2020, 2, 21), 3).
 memo_score(interjection('kissan viikset'), date(2020, 2, 21), 4).
 
 memo_score(verb('ohjata'), date(2020, 2, 21), 5).
@@ -293,7 +293,7 @@ memo_score(adv('liikaa'), date(2020, 2, 21), 4).
 memo_score(noun('tausta'), date(2020, 2, 21), 4).
 memo_score(noun('nauha'), date(2020, 2, 21), 4).
 memo_score(noun('viikset'), date(2020, 2, 21), 4).
-memo_score(postposition('kuluessa'), date(2020, 2, 21), 4).
+memo_score(adposition('kuluessa'), date(2020, 2, 21), 4).
 
 memo_score(conj('jotta'), date(2020, 2, 22), 4).
 memo_score(adj('virallinen'), date(2020, 2, 22), 5).
