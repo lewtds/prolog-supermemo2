@@ -295,6 +295,48 @@ meaning(noun(veloitus), 'fee, charge (amount of money levied for a service)').
 
 meaning(noun(valokuitu), 'optical fibre').
 
+meaning(adj(uudenveroinen), 'like new').
+
+% https://www.speaklanguages.com/finnish/vocab/the-human-body
+meaning(noun(kulmakarva), 'eyebrow').
+word_topic(noun(kulmakarva), topic('human body part')).
+
+meaning(noun(nenä), 'nose').
+word_topic(noun(nenä), topic('human body part')).
+
+meaning(noun(suu), 'mouth').
+word_topic(noun(suu), topic('human body part')).
+
+meaning(noun(hammas), 'tooth').
+word_topic(noun(hammas), topic('human body part')).
+
+meaning(noun(huuli), 'lip').
+word_topic(noun(huuli), topic('human body part')).
+
+meaning(noun(parta), 'beard').
+word_topic(noun(parta), topic('human body part')).
+
+meaning(noun(niska), 'neck').
+word_topic(noun(niska), topic('human body part')).
+
+meaning(noun(olkapää), 'shoulder').
+word_topic(noun(olkapää), topic('human body part')).
+
+meaning(noun(kyynärpää), 'elbow').
+word_topic(noun(kyynärpää), topic('human body part')).
+
+meaning(noun(ranne), 'wrist').
+word_topic(noun(ranne), topic('human body part')).
+
+meaning(noun(rinta), 'chest').
+word_topic(noun(rinta), topic('human body part')).
+
+meaning(noun(polvi), 'knee').
+word_topic(noun(polvi), topic('human body part')).
+
+meaning(noun(varvas), 'toe').
+word_topic(noun(varvas), topic('human body part')).
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
