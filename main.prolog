@@ -8,6 +8,7 @@
 :- discontiguous example/2.
 :- discontiguous comes_from/2.
 :- discontiguous similar/2.
+:- discontiguous word_topic/2.
 
 entry_type(conj).
 entry_type(phrase).
@@ -336,6 +337,7 @@ word_topic(noun(polvi), topic('human body part')).
 
 meaning(noun(varvas), 'toe').
 word_topic(noun(varvas), topic('human body part')).
+
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
