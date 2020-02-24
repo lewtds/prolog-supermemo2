@@ -603,3 +603,15 @@ nth_score(Entry, Nth, Date, Score) :-
 
 latest_memo_nth(Entry, Nth) :-
     aggregate_all(count, memo_score(Entry, _, _), Nth).
+
+study_agg(Date, Count) :- aggregate(count, (E-S)^memo_score(E, Date, S), Count).
+deadline_agg(Date, Count) :- aggregate(count, E^entry_deadline(E, Date), Count).
+
+date_deadline_studied(D, C, C2) :- study_agg(D, C), deadline_agg(D, C2).
+date_deadline_studied(D, C, 0) :- study_agg(D, C), \+ deadline_agg(D, _).
+date_deadline_studied(D, 0, C2) :- deadline_agg(D, C2), \+ study_agg(D, _).
+
+export_chart_data(Path) :-
+    open(Path, write, Stream),
+    forall(date_deadline_studied(D, C, C2), (format_time(string(Date), '%Y-%m-%d', D), csv_write_stream(Stream, [row(Date, C, C2)], []))),
+    close(Stream).
