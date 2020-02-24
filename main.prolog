@@ -342,6 +342,8 @@ meaning(noun(mahtavuus), 'mightiness, power, grandiosity').
 
 meaning(adv(riittävästi), 'sufficiently').
 
+meaning(phrase('mahdollisimman pian'), 'as soon as possible').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
