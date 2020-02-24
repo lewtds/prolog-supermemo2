@@ -338,6 +338,7 @@ word_topic(noun(polvi), topic('human body part')).
 meaning(noun(varvas), 'toe').
 word_topic(noun(varvas), topic('human body part')).
 
+meaning(noun(mahtavuus), 'mightiness, power, grandiosity').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
