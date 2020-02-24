@@ -615,3 +615,6 @@ export_chart_data(Path) :-
     open(Path, write, Stream),
     forall(date_deadline_studied(D, C, C2), (format_time(string(Date), '%Y-%m-%d', D), csv_write_stream(Stream, [row(Date, C, C2)], []))),
     close(Stream).
+
+due_today_count(C) :-
+    aggregate_all(count, next(E), C).
