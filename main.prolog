@@ -536,17 +536,10 @@ memo_score(noun('niska'), date(2020, 2, 24), 4).
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
-    find_entry(Entry),
-    latest_memo_interval(Entry, N, RecommendedStudyInterval),
-(
-    nth_score(Entry, N, LastDate, _),
+    entry_deadline(Entry, DeadLine),
     date(Today),
-    date_add(LastDate, RecommendedStudyInterval, DeadLine),
     date_interval(Today, DeadLine, DaysPastDeadline days),
-    DaysPastDeadline >= 0
-;
-    RecommendedStudyInterval = 0
-).
+    DaysPastDeadline >= 0.
 
 below_four(Entry) :-
     find_entry(Entry),
@@ -556,6 +549,16 @@ below_four(Entry) :-
 
 find_entry(Entry) :-
     entry_type(Type), Entry =.. [Type, _], call(Entry).
+
+entry_deadline(Entry, DeadLine) :-
+    find_entry(Entry),
+    latest_memo_interval(Entry, N, RecommendedStudyInterval),
+    nth_score(Entry, N, LastDate, _),
+    RoundedInterval is round(RecommendedStudyInterval),
+    date_add(LastDate, RoundedInterval days, DeadLine).
+
+entries_deadline(Es, D) :-
+    setof(E, entry_deadline(E, D), Es).
 
 latest_memo_interval(Entry, N, I) :-
     latest_memo_nth(Entry, N),
