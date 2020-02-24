@@ -505,6 +505,33 @@ memo_score(noun('ohikulkija'), date(2020, 2, 22), 4).
 memo_score(noun('saatavuus'), date(2020, 2, 22), 4).
 memo_score(noun('veloitus'), date(2020, 2, 22), 4).
 
+memo_score(adj('uudenveroinen'), date(2020, 2, 24), 5).
+memo_score(noun('kulmakarva'), date(2020, 2, 24), 0).
+memo_score(noun('nenä'), date(2020, 2, 24), 3).
+memo_score(noun('suu'), date(2020, 2, 24), 4).
+memo_score(noun('hammas'), date(2020, 2, 24), 4).
+memo_score(noun('huuli'), date(2020, 2, 24), 3).
+memo_score(noun('parta'), date(2020, 2, 24), 4).
+memo_score(noun('niska'), date(2020, 2, 24), 3).
+memo_score(noun('olkapää'), date(2020, 2, 24), 3).
+memo_score(noun('kyynärpää'), date(2020, 2, 24), 2).
+memo_score(noun('ranne'), date(2020, 2, 24), 4).
+memo_score(noun('rinta'), date(2020, 2, 24), 4).
+memo_score(noun('polvi'), date(2020, 2, 24), 2).
+memo_score(noun('varvas'), date(2020, 2, 24), 2).
+memo_score(noun('varvas'), date(2020, 2, 24), 2).
+
+memo_score(noun('kulmakarva'), date(2020, 2, 24), 3).
+memo_score(noun('nenä'), date(2020, 2, 24), 4).
+memo_score(noun('huuli'), date(2020, 2, 24), 4).
+memo_score(noun('niska'), date(2020, 2, 24), 1).
+memo_score(noun('olkapää'), date(2020, 2, 24), 4).
+memo_score(noun('kyynärpää'), date(2020, 2, 24), 4).
+memo_score(noun('polvi'), date(2020, 2, 24), 4).
+memo_score(noun('varvas'), date(2020, 2, 24), 4).
+
+memo_score(noun('kulmakarva'), date(2020, 2, 24), 4).
+memo_score(noun('niska'), date(2020, 2, 24), 4).
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 next(Entry) :-
