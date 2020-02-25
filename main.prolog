@@ -539,6 +539,12 @@ memo_score(noun('kulmakarva'), date(2020, 2, 24), 4).
 memo_score(noun('niska'), date(2020, 2, 24), 4).
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
+
+study :- forall(next(E), show_entry(E)).
+study_below_four :- forall(below_four(E), show_entry(E)).
+
+show_entry(E) :- writeln(E), get_char(_), meaning(E, M), writeln(M), get_char(_).
+
 next(Entry) :-
     entry_deadline(Entry, DeadLine),
     date(Today),

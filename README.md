@@ -7,7 +7,7 @@ Integrated tool for learning Finnish with Prolog. It's a WordNet database and a 
 ## Spaced repetition work flow
 - Run a SWI-Prolog shell
 - `[main].`
-- `next(Entry).` and press `;` for more entries to study
+- `study.` and press <kbd>Enter</kbd> to show the meaning and for more entries to study
 - Manually rate the score and add memo entries to the file
-- At the end of the session, reevaluate the file again to update the memo entries (`[main].`) then call `below_four(Entry)` to study entries that scored below 4. 
+- At the end of the session, reevaluate the file again to update the memo entries (`[main].`) then call `study_below_four.` to study entries that scored below 4. 
   Continue the repetitions until all of these items score at least four.
