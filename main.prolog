@@ -617,4 +617,4 @@ export_chart_data(Path) :-
     close(Stream).
 
 due_today_count(C) :-
-    aggregate_all(count, next(E), C).
+    aggregate_all(count, next(_), C).
