@@ -73,7 +73,7 @@ meaning(conj(vaan), 'but').
 example(conj(vaan), 'Se ei ole musta, vaan punainen.').
 similar(conj(vaan), conj(vain)).
 
-meaning(conj(sillä), 'since').
+meaning(conj(sillä), 'since (because)').
 
 meaning(verb(esiintyä), 'occur').
 
@@ -343,6 +343,15 @@ meaning(noun(mahtavuus), 'mightiness, power, grandiosity').
 meaning(adv(riittävästi), 'sufficiently').
 
 meaning(phrase('mahdollisimman pian'), 'as soon as possible').
+
+meaning(phrase('hallitus koolla'), 'the government gathered').
+
+meaning(verb(aiheuttaa), 'to cause, to lead to, to result in').
+example(verb(aiheuttaa), 'aiheuttaa hälytyksen').
+
+meaning(adj(ajankohtainen), 'current, of interest (situation)').
+
+meaning(adv(ajallaan), 'on time').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
