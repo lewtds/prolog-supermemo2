@@ -651,6 +651,61 @@ memo_score(verb('korostaa'), date(2020, 2, 25), 2).
 memo_score(verb('laittaa'), date(2020, 2, 25), 4).
 memo_score(verb('korostaa'), date(2020, 2, 25), 4).
 
+memo_score(conj('sekä - että'), date(2020, 2, 26), 4).
+memo_score(conj(vaan), date(2020, 2, 26), 5).
+memo_score(phrase('jotain lisättävää'), date(2020, 2, 26), 4).
+memo_score(phrase('sitä paisti'), date(2020, 2, 26), 3).
+memo_score(verb('perustella'), date(2020, 2, 26), 3).
+memo_score(verb('liityä'), date(2020, 2, 26), 4).
+
+memo_score(conj(vaikka), date(2020, 2, 28), 4).
+memo_score(conj(sillä), date(2020, 2, 28), 2).
+memo_score(conj('joko - tai'), date(2020, 2, 28), 4).
+memo_score(phrase('sitä paitsi'), date(2020, 2, 28), 4).
+memo_score(verb('liittyä'), date(2020, 2, 28), 5).
+memo_score(verb('ohjata'), date(2020, 2, 28), 4).
+memo_score(verb('omistaa'), date(2020, 2, 28), 5).
+memo_score(verb('kantaa'), date(2020, 2, 28), 5).
+memo_score(verb('levitä'), date(2020, 2, 28), 5).
+memo_score(verb('osallistua'), date(2020, 2, 28), 5).
+memo_score(verb('jännittää'), date(2020, 2, 28), 4).
+memo_score(adv('joten'), date(2020, 2, 28), 2).
+memo_score(adv('liikaa'), date(2020, 2, 28), 2).
+memo_score(adj('ominainen'), date(2020, 2, 28), 2).
+memo_score(adj('tavallinen'), date(2020, 2, 28), 3).
+memo_score(adj('vapaaehtoinen'), date(2020, 2, 28), 4).
+memo_score(noun('nuha'), date(2020, 2, 28), 2).
+memo_score(noun('päiväunet'), date(2020, 2, 28), 2).
+memo_score(noun('tausta'), date(2020, 2, 28), 3).
+memo_score(noun('nauha'), date(2020, 2, 28), 2).
+memo_score(noun('viikset'), date(2020, 2, 28), 2).
+memo_score(noun('lakimies'), date(2020, 2, 28), 4).
+memo_score(noun('menestys'), date(2020, 2, 28), 4).
+memo_score(noun('haastattelu'), date(2020, 2, 28), 4).
+memo_score(noun('ohikulkija'), date(2020, 2, 28), 4).
+memo_score(noun('saatavuus'), date(2020, 2, 28), 4).
+memo_score(noun('veloitus'), date(2020, 2, 28), 2).
+memo_score(adposition('kuluessa'), date(2020, 2, 28), 2).
+
+memo_score(conj(sillä), date(2020, 2, 28), 2).
+memo_score(verb(perustella), date(2020, 2, 28), 2).
+memo_score(adv(joten), date(2020, 2, 28), 3).
+memo_score(adv(liikaa), date(2020, 2, 28), 3).
+memo_score(adj(ominainen), date(2020, 2, 28), 3).
+memo_score(adj(tavallinen), date(2020, 2, 28), 3).
+memo_score(noun(nuha), date(2020, 2, 28), 4).
+memo_score(noun(päiväunet), date(2020, 2, 28), 4).
+memo_score(noun(tausta), date(2020, 2, 28), 4).
+memo_score(noun(nauha), date(2020, 2, 28), 2).
+memo_score(noun(viikset), date(2020, 2, 28), 4).
+memo_score(noun(veloitus), date(2020, 2, 28), 4).
+memo_score(adposition(kuluessa), date(2020, 2, 28), 4).
+
+memo_score(verb(perustella), date(2020, 2, 28), 4).
+memo_score(adv(joten), date(2020, 2, 28), 4).
+memo_score(adv(liikaa), date(2020, 2, 28), 4).
+memo_score(adj(ominainen), date(2020, 2, 28), 4).
+
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 
 study :- forall(next(E), show_entry(E)).
