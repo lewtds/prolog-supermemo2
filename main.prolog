@@ -731,7 +731,7 @@ find_entry(Entry) :-
 entry_deadline(Entry, DeadLine) :-
     find_entry(Entry),
     latest_memo_interval(Entry, N, RecommendedStudyInterval),
-    nth_score(Entry, N, LastDate, _),
+    (nth_score(Entry, N, LastDate, _); date(Today), LastDate = Today),
     RoundedInterval is round(RecommendedStudyInterval),
     date_add(LastDate, RoundedInterval days, DeadLine).
 
