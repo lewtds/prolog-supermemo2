@@ -353,6 +353,24 @@ meaning(adj(ajankohtainen), 'current, of interest (situation)').
 
 meaning(adv(ajallaan), 'on time').
 
+meaning(noun(sielu), 'soul').
+
+meaning(noun(tyyny), 'pillow, cushion').
+
+meaning(noun(jakkara), 'stool').
+
+meaning(noun(valikko), 'menu').
+
+meaning(noun(valintaikkuna), 'dialog box').
+
+meaning(noun(valuutta), 'currency (money)').
+
+meaning(noun(laajennus), 'extension, add-on').
+
+meaning(noun(yksityisyys), 'privacy').
+
+meaning(verb(jakaa), 'to share, to divide').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
