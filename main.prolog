@@ -371,6 +371,12 @@ meaning(noun(yksityisyys), 'privacy').
 
 meaning(verb(jakaa), 'to share, to divide').
 
+meaning(noun(joukkoliikenne), 'mass transportation').
+
+meaning(verb(arpoa), 'to draw/cast lots (bốc thăm xổ số)').
+
+meaning(noun(oikotie), 'shortcut').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
