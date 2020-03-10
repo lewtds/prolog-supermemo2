@@ -36,7 +36,7 @@ phrase(C) :- meaning(phrase(C), _).
 adposition(P) :- meaning(adposition(P), _).
 interjection(I) :- meaning(interjection(I), _).
 
-meaning(verb(antaa), 'to give').
+meaning(verb(antaa), '[annan] to give').
 
 meaning(adj(eri), 'different').
 similar(adj(eri), adj(erilainen)).
@@ -75,14 +75,14 @@ similar(conj(vaan), conj(vain)).
 
 meaning(conj(sillä), 'since (because)').
 
-meaning(verb(esiintyä), 'occur').
+meaning(verb(esiintyä), '[esiinnyn] to occur').
 
 meaning(noun(yhteys_1), 'connection').
 meaning(noun(yhteys_2), 'context').
 
 meaning(noun(perustelu), 'reasoning').
 
-meaning(verb(perustella), 'to argue, justify, explain').
+meaning(verb(perustella), '[perustelen] to argue, justify, explain').
 comes_from(noun(perustelu), verb(perustella)).
 
 meaning(phrase('jotain lisättävää'), 'something to add (to a conversation)').
@@ -96,17 +96,17 @@ example(noun(päiväunet), 'Olen sekä nukkunut päiväunet että juonut kuumaa 
 meaning(conj('joko - tai'), 'either - or').
 example(conj('joko - tai'), 'Me ostamme joko kissan tai koiran.').
 
-meaning(verb(levätä), 'to rest').
+meaning(verb(levätä), '[lepään] to rest').
 example(verb(levätä), 'Lepään kotona').
 
-meaning(verb(jää), 'to stay').
-example(verb(jää), 'En mene tänään töihin vaan jään kotiin').
+meaning(verb(jäädä), '[jään] to stay').
+example(verb(jäädä), 'En mene tänään töihin vaan jään kotiin').
 
 meaning(adv(innoissaan), 'excitedly').
 example(adv(innoissaan), '"Kivaa", hän sanoi innoissaan.').
 comes_from(adv(innoissaan), verb(innostaa)).
 
-meaning(verb(innostaa), 'to excite, inspire').
+meaning(verb(innostaa), '[innostan] to excite, inspire').
 example(verb(innostaa), 'Mikä innostaa sinua?').
 
 meaning(phrase('sitä paitsi'), 'besides, in addition to (that)').
@@ -117,9 +117,9 @@ example(adj(liittyvä), 'liittyvät tehtävät').
 
 comes_from(adj(liittyvä), verb(liittyä)).
 
-meaning(verb(liittyä), 'to join (a group), to be related to, to be part of').
+meaning(verb(liittyä), '[liityn] to join (a group), to be related to, to be part of').
 
-meaning(verb(muokata), 'to edit/modify').
+meaning(verb(muokata), '[muokkaan] to edit/modify').
 
 meaning(adj(yleinen), 'general').
 
@@ -131,7 +131,7 @@ etymology(noun(verkkosivusto), 'verkko (net) + sivu (page) + -sto (place)').
 
 meaning(noun(viesti), 'message').
 
-meaning(verb(kumota), 'to undo, cancel').
+meaning(verb(kumota), '[kumoan] to undo, cancel').
 
 meaning(noun(tallennustila), 'storage space').
 
@@ -140,7 +140,7 @@ meaning(noun(tausta), 'background').
 meaning(noun(ohjaus), 'control').
 comes_from(noun(ohjaus), verb(ohjata)).
 
-meaning(verb(ohjata), 'control').
+meaning(verb(ohjata), '[ohjaan] to control').
 
 meaning(noun(kirkkaus), 'brightness').
 comes_from(noun(kirkkaus), adj(kirkas)).
@@ -153,9 +153,9 @@ meaning(noun(nauha), 'tape, ribbon, band, string').
 
 meaning(noun(mittanauha), 'measuring tape').
 
-meaning(verb(ladata), 'to download').
+meaning(verb(ladata), '[lataan] to download').
 
-meaning(verb(tyhjentää), 'to empty, to reset').
+meaning(verb(tyhjentää), '[tyhjennän] to empty, to reset').
 
 meaning(conj(mikäli), 'if, provided that, in the event that').
 example(conj(mikäli), 'Mikäli tämän ajan kuluessa varausta ei makseta, varauksenne peruuntuu.').
@@ -165,7 +165,7 @@ meaning(noun(vahinko), 'mishap, accident, damage').
 meaning(adv(liikaa), 'too much').
 example(adv(liikaa), 'Elämässä ei ole koskaan liikaa laulua ja hyvää seuraa.').
 
-meaning(verb(kutsua), 'to invite').
+meaning(verb(kutsua), '[kutsun] to invite').
 
 meaning(noun(tiski), 'counter (bar)').
 example(noun(tiski), 'tehdä tilauksesi tiskillä').
@@ -180,7 +180,7 @@ meaning(interjection('kissan viikset'), 'nonsense, rubbish').
 
 meaning(noun(viikset), 'mustache').
 
-meaning(verb(korostaa), 'emphasize, highlight').
+meaning(verb(korostaa), '[korostan] emphasize, highlight').
 
 meaning(conj(jotta), 'so that').
 example(conj(jotta), 'Nousimme aikaisin, jotta näkisimme auringonnousun.').
@@ -202,14 +202,14 @@ example(adj(ominainen), 'Tämä on Japanille ominainen tapa.').
 
 meaning(noun(koru), 'jewel').
 
-meaning(verb(omistaa), 'to own').
+meaning(verb(omistaa), '[omistan] to own').
 example(verb(omistaa), 'Minä omistan talon ja maatilan.').
 
 meaning(noun(maatila), 'farm').
 
 meaning(adj(eronnut), 'divorced').
 
-meaning(verb(viettää), 'to spend time, to pass the time').
+meaning(verb(viettää), '[vietän] to spend time, to pass the time').
 
 meaning(adj(naimisissa), 'married').
 
@@ -219,12 +219,12 @@ meaning(noun(puoliso), 'spouse').
 
 meaning(noun(lakimies), 'lawyer').
 
-meaning(verb(kantaa), 'to carry').
+meaning(verb(kantaa), '[kannan] to carry').
 example(verb(kantaa), 'Tom kantaa sinua.').
 
 meaning(noun(asukas), 'resident').
 
-meaning(verb(haitata), 'to bother, to hinder').
+meaning(verb(haitata), '[haittaan] to bother, to hinder').
 example(verb(haitata), 'Kylmä ei haittaa ketään').
 
 meaning(adv(nykyään), 'recently, nowadays').
@@ -237,7 +237,7 @@ meaning(adj(tällainen), 'such, this kind of').
 
 meaning(noun(some), 'social media').
 
-meaning(verb(levitä), 'to spread (words)').
+meaning(verb(levitä), '[leviän] to spread (words)').
 example(verb(levitä), 'sana leviää nopeasti ja helposti').
 
 meaning(noun(kustannus), 'cost, expense').
@@ -245,7 +245,7 @@ meaning(noun(kustannus), 'cost, expense').
 meaning(noun(vapaaehtoinen), 'a volunteer').
 meaning(adj(vapaaehtoinen), 'voluntary').
 
-meaning(verb(osallistua), 'to participate, to attend').
+meaning(verb(osallistua), '[osallistun] to participate, to attend').
 
 meaning(adv(mielellään), 'gladly, willingly').
 
@@ -262,7 +262,7 @@ meaning(noun(puuhamies), 'organizer, especially one who works on a voluntary bas
 meaning(noun(menestys), 'success').
 meaning(noun(menetys), 'loss').
 
-meaning(verb(jännittää), 'to tense up, to feel excited and nervous').
+meaning(verb(jännittää), '[jännitän] to tense up, to feel excited and nervous').
 example(verb(jännittää), 'Mä muistan hyvin, miten mua jännitti.').
 
 meaning(adj(kamala), 'horrible').
@@ -275,7 +275,7 @@ meaning(noun(haastattelu), 'an interview').
 meaning(pron(muutama), 'a few, some').
 example(pron(muutama), 'Oscar myy kolme kirja muutamalla eurolla').
 
-meaning(verb(jutella), 'to chat').
+meaning(verb(jutella), '[juttelen] to chat').
 example(verb(jutella), 'asiakas juttele hetken').
 
 meaning(noun(takki), 'jacket, coat').
@@ -287,7 +287,7 @@ meaning(noun(ohikulkija), 'passer-by').
 meaning(noun(väline), 'tool, equipment').
 meaning(noun(urheiluväline), 'sports equipment').
 
-meaning(verb(laittaa), 'put, set, place').
+meaning(verb(laittaa), '[laitan] put, set, place').
 example(verb(laittaa), 'Laita sanat oikeaan laatikkoon.').
 
 meaning(noun(saatavuus), 'availability').
@@ -346,7 +346,7 @@ meaning(phrase('mahdollisimman pian'), 'as soon as possible').
 
 meaning(phrase('hallitus koolla'), 'the government gathered').
 
-meaning(verb(aiheuttaa), 'to cause, to lead to, to result in').
+meaning(verb(aiheuttaa), '[aiheutan] to cause, to lead to, to result in').
 example(verb(aiheuttaa), 'aiheuttaa hälytyksen').
 
 meaning(adj(ajankohtainen), 'current, of interest (situation)').
@@ -369,11 +369,11 @@ meaning(noun(laajennus), 'extension, add-on').
 
 meaning(noun(yksityisyys), 'privacy').
 
-meaning(verb(jakaa), 'to share, to divide').
+meaning(verb(jakaa), '[jaan] to share, to divide').
 
 meaning(noun(joukkoliikenne), 'mass transportation').
 
-meaning(verb(arpoa), 'to draw/cast lots (bốc thăm xổ số)').
+meaning(verb(arpoa), '[arvon] to draw/cast lots (bốc thăm xổ số)').
 
 meaning(noun(oikotie), 'shortcut').
 
@@ -387,7 +387,7 @@ memo_score(verb(antaa), date(2020, 2, 20), 5).
 memo_score(verb(esiintyä), date(2020, 2, 20), 0).
 memo_score(verb(perustella), date(2020, 2, 20), 3).
 memo_score(verb(levätä), date(2020, 2, 20), 0).
-memo_score(verb(jää), date(2020, 2, 20), 4).
+memo_score(verb(jäädä), date(2020, 2, 20), 4).
 memo_score(verb(innostaa), date(2020, 2, 20), 2).
 memo_score(verb(liittyä), date(2020, 2, 20), 2).
 memo_score(adv(heti), date(2020, 2, 20), 5).
