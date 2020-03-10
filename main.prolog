@@ -382,6 +382,24 @@ example(noun(luoda), 'Alussa Jumala loi taivaan ja maan.').
 
 meaning(verb(hylätä), '[hylkään] to refuse, to reject (an invitation)').
 
+meaning(noun(päätös), 'decision, resolution').
+comes_from(noun(päätös), verb(päättää)).
+
+meaning(verb(päättää), '[päätän] to decide/to choose (to do something), to judge').
+
+meaning(noun('tammikuu'), 'month 1').
+meaning(noun('helmikuu'), 'month 2').
+meaning(noun('maaliskuu'), 'month 3').
+meaning(noun('huhtikuu'), 'month 4').
+meaning(noun('toukokuu'), 'month 5').
+meaning(noun('kesäkuu'), 'month 6').
+meaning(noun('heinäkuu'), 'month 7').
+meaning(noun('elokuu'), 'month 8').
+meaning(noun('syyskuu'), 'month 9').
+meaning(noun('lokakuu'), 'month 10').
+meaning(noun('marraskuu'), 'month 11').
+meaning(noun('joulukuu'), 'month 12').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
