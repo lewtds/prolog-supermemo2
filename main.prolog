@@ -377,6 +377,11 @@ meaning(verb(arpoa), '[arvon] to draw/cast lots (bốc thăm xổ số)').
 
 meaning(noun(oikotie), 'shortcut').
 
+meaning(noun(luoda), 'to create').
+example(noun(luoda), 'Alussa Jumala loi taivaan ja maan.').
+
+meaning(verb(hylätä), '[hylkään] to refuse, to reject (an invitation)').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
