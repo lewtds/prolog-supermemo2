@@ -400,6 +400,16 @@ meaning(noun('lokakuu'), 'month 10').
 meaning(noun('marraskuu'), 'month 11').
 meaning(noun('joulukuu'), 'month 12').
 
+meaning(noun(harrastus), 'hobby').
+
+meaning(noun(kokoaminen), 'assembly').
+
+meaning(noun(torkku), 'nap, snooze').
+
+meaning(verb(kellua), '[kellun] (intransitive) to float').
+
+meaning(adj(linjoilla), 'online').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
