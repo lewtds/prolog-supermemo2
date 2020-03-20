@@ -410,6 +410,10 @@ meaning(verb(kellua), '[kellun] (intransitive) to float').
 
 meaning(adj(linjoilla), 'online').
 
+meaning(noun(voimassaolo), 'validity').
+etymology(noun(voimassaolo), 'voimassa (“in effect, effective”) +‎ olo (“being; the state of”)').
+
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
@@ -922,6 +926,90 @@ memo_score(noun('marraskuu'), date(2020, 3, 11), 4).
 memo_score(noun('joulukuu'), date(2020, 3, 11), 4).
 memo_score(adposition('kuluessa'), date(2020, 3, 11), 3).
 memo_score(interjection('kissan viikset'), date(2020, 3, 11), 4).
+
+memo_score(conj(kunnes), date(2020, 3, 20), 2).
+memo_score(conj('joko - tai'), date(2020, 3, 20), 4).
+memo_score(conj('jotta'), date(2020, 3, 20), 4).
+memo_score(conj('sitä paitsi'), date(2020, 3, 20), 4).
+memo_score(phrase('mahdollisimman pian'), date(2020, 3, 20), 4).
+memo_score(phrase('hallitus koolla'), date(2020, 3, 20), 4).
+memo_score(verb('perustella'), date(2020, 3, 20), 5).
+memo_score(verb('jäädä'), date(2020, 3, 20), 5).
+memo_score(verb('liittyä'), date(2020, 3, 20), 5).
+memo_score(verb('ohjata'), date(2020, 3, 20), 5).
+memo_score(verb('jännittää'), date(2020, 3, 20), 5).
+memo_score(verb('aiheuttaa'), date(2020, 3, 20), 5).
+memo_score(verb('jakaa'), date(2020, 3, 20), 5).
+memo_score(verb('arpoa'), date(2020, 3, 20), 5).
+memo_score(verb('luoda'), date(2020, 3, 20), 5).
+memo_score(verb('hylätä'), date(2020, 3, 20), 5).
+memo_score(verb('päättää'), date(2020, 3, 20), 5).
+memo_score(verb('kellua'), date(2020, 3, 20), 5).
+memo_score(adv('joten'), date(2020, 3, 20), 2).
+memo_score(adv('liikaa'), date(2020, 3, 20), 4).
+memo_score(adv('riittävästi'), date(2020, 3, 20), 4).
+memo_score(adj('ominainen'), date(2020, 3, 20), 4).
+memo_score(adj('ajankohtainen'), date(2020, 3, 20), 4).
+memo_score(adj('linjoilla'), date(2020, 3, 20), 4).
+memo_score(noun('nuha'), date(2020, 3, 20), 5).
+memo_score(noun('päiväunet'), date(2020, 3, 20), 5).
+memo_score(noun('viikset'), date(2020, 3, 20), 4).
+memo_score(noun('asukas'), date(2020, 3, 20), 4).
+memo_score(noun('menestys'), date(2020, 3, 20), 4).
+memo_score(noun('ohikulkija'), date(2020, 3, 20), 4).
+memo_score(noun('väline'), date(2020, 3, 20), 4).
+memo_score(noun('urheiluväline'), date(2020, 3, 20), 4).
+memo_score(noun('saatavuus'), date(2020, 3, 20), 5).
+memo_score(noun('veloitus'), date(2020, 3, 20), 5).
+memo_score(noun('kulmakarva'), date(2020, 3, 20), 4).
+memo_score(noun('huuli'), date(2020, 3, 20), 4).
+memo_score(noun('niska'), date(2020, 3, 20), 4).
+memo_score(noun('kyynärpää'), date(2020, 3, 20), 4).
+memo_score(noun('sielu'), date(2020, 3, 20), 4).
+memo_score(noun('tyyny'), date(2020, 3, 20), 4).
+memo_score(noun('jakkara'), date(2020, 3, 20), 4).
+memo_score(noun('valikko'), date(2020, 3, 20), 3).
+memo_score(noun('valintaikkuna'), date(2020, 3, 20), 3).
+memo_score(noun('valuutta'), date(2020, 3, 20), 2).
+memo_score(noun('laajennus'), date(2020, 3, 20), 4).
+memo_score(noun('yksityisyys'), date(2020, 3, 20), 4).
+memo_score(noun('joukkoliikenne'), date(2020, 3, 20), 4).
+memo_score(noun('oikotie'), date(2020, 3, 20), 4).
+memo_score(noun('päätös'), date(2020, 3, 20), 4).
+memo_score(noun('tammikuu'), date(2020, 3, 20), 4).
+memo_score(noun('helmikuu'), date(2020, 3, 20), 5).
+memo_score(noun('maaliskuu'), date(2020, 3, 20), 5).
+memo_score(noun('huhtikuu'), date(2020, 3, 20), 5).
+memo_score(noun('toukokuu'), date(2020, 3, 20), 4).
+memo_score(noun('kesäkuu'), date(2020, 3, 20), 5).
+memo_score(noun('heinäkuu'), date(2020, 3, 20), 4).
+memo_score(noun('elokuu'), date(2020, 3, 20), 3).
+memo_score(noun('syyskuu'), date(2020, 3, 20), 4).
+memo_score(noun('lokakuu'), date(2020, 3, 20), 3).
+memo_score(noun('marraskuu'), date(2020, 3, 20), 4).
+memo_score(noun('joulukuu'), date(2020, 3, 20), 5).
+memo_score(noun('harrastus'), date(2020, 3, 20), 5).
+memo_score(noun('kokoaminen'), date(2020, 3, 20), 5).
+memo_score(noun('torkku'), date(2020, 3, 20), 4).
+memo_score(noun('voimassaolo'), date(2020, 3, 20), 4).
+memo_score(adposition('kuluessa'), date(2020, 3, 20), 2).
+
+memo_score(conj('kunnes'), date(2020, 3, 20), 4).
+memo_score(conj('sekä - että'), date(2020, 3, 20), 4).
+memo_score(conj('mikäli'), date(2020, 3, 20), 4).
+memo_score(adv('joten'), date(2020, 3, 20), 2).
+memo_score(adv('mielellään'), date(2020, 3, 20), 4).
+memo_score(noun('nenä'), date(2020, 3, 20), 4).
+memo_score(noun('mahtavuus'), date(2020, 3, 20), 4).
+memo_score(noun('valikko'), date(2020, 3, 20), 5).
+memo_score(noun('valintaikkuna'), date(2020, 3, 20), 5).
+memo_score(noun('valuutta'), date(2020, 3, 20), 3).
+memo_score(noun('elokuu'), date(2020, 3, 20), 2).
+memo_score(noun('lokakuu'), date(2020, 3, 20), 4).
+memo_score(adposition('kuluessa'), date(2020, 3, 20), 4).
+
+memo_score(noun('valuutta'), date(2020, 3, 20), 4).
+memo_score(noun('elokuu'), date(2020, 3, 20), 5).
 
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
