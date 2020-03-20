@@ -443,6 +443,38 @@ meaning(adj(tärkeä), 'important').
 
 meaning(adv('saman tien'), 'on the spot, immediately').
 
+meaning(verb(vaatia), '[vaadin] to demand, require').
+
+meaning(verb(esittää), '[esitän] to show, to express, to perform, to portray').
+
+meaning(conj('ts.'), '(toisin sanoen) in other words').
+
+meaning(noun(kisa), 'competition, game').
+
+meaning(adj(entinen), 'former (soviet union)').
+
+meaning(verb(aloittaa), '[aloitan] to start, to begin').
+
+meaning(noun(syy), 'reason').
+
+meaning(verb(kasvaa), '[kasvan] to grow').
+
+meaning(noun(kilpaulu), 'contest, race; rivalry').
+
+meaning(noun(joukkue), 'a team (sport)').
+
+meaning(noun(valtio), 'government').
+
+meaning(verb(arvioida), '[arvioin] to estimate, to grade').
+
+meaning(adv(edelleen), 'still').
+
+meaning(noun(joukko), 'group, band').
+
+meaning(adj(kansainvälinen), 'international').
+
+meaning(verb(tuntea), '[tunnen] to feel, to sense').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
