@@ -413,6 +413,35 @@ meaning(adj(linjoilla), 'online').
 meaning(noun(voimassaolo), 'validity').
 etymology(noun(voimassaolo), 'voimassa (“in effect, effective”) +‎ olo (“being; the state of”)').
 
+meaning(conj(eli), 'a.k.a, in other words').
+
+meaning(adv(jopa), 'up to, as much as').
+
+meaning(adv(taas), 'again').
+
+meaning(verb(tutustua), '[tutustun] to check smth out, to get acquainted with').
+
+meaning(adv('mm.'), '[muun muassa] among other things').
+
+meaning(verb(päästä), '[pääsen] to get to, reach, arrive').
+example(verb(päästä), 'Kuinka pääsen lentokentälle?').
+
+meaning(noun('välilehti'), '(browser\'s) tab').
+
+meaning(noun(vihollinen), 'an enemy').
+
+meaning(verb(joutua), '[joudun + -iin] to involutarily end up in a negative place/situation').
+
+meaning(pron(jokin), 'something').
+
+meaning(verb(todeta), '[totean] to notice, to find out something').
+
+meaning(adposition(aikana), '[genitive + aikana] within').
+example(adposition(aikana), 'kahden vuoden aikana').
+
+meaning(adj(tärkeä), 'important').
+
+meaning(adv('saman tien'), 'on the spot, immediately').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
