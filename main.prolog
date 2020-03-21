@@ -436,7 +436,7 @@ meaning(pron(jokin), 'something').
 
 meaning(verb(todeta), '[totean] to notice, to find out something').
 
-meaning(adposition(aikana), '[genitive + aikana] within').
+meaning(adposition(aikana), '[genitive + aikana] within, in smth\'s time').
 example(adposition(aikana), 'kahden vuoden aikana').
 
 meaning(adj(tärkeä), 'important').
@@ -459,7 +459,7 @@ meaning(noun(syy), 'reason').
 
 meaning(verb(kasvaa), '[kasvan] to grow').
 
-meaning(noun(kilpaulu), 'contest, race; rivalry').
+meaning(noun(kilpailu), 'contest, race; rivalry').
 
 meaning(noun(joukkue), 'a team (sport)').
 
@@ -474,6 +474,24 @@ meaning(noun(joukko), 'group, band').
 meaning(adj(kansainvälinen), 'international').
 
 meaning(verb(tuntea), '[tunnen] to feel, to sense').
+
+meaning(adv(miten), 'how').
+
+meaning(noun(tavoite), 'target, goal, objective, aim').
+
+meaning(noun(voitto), 'victory').
+
+meaning(noun(ottelu), '(sports) match').
+
+meaning(verb(lisätä), '[lisään] to add').
+
+meaning(verb(jättää), '[jätän] to leave').
+
+meaning(noun(yhteistyö), 'cooperation').
+
+meaning(noun(tutkimus), 'research').
+
+meaning(verb(yrittää), '[yritän] to try').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
@@ -1072,6 +1090,71 @@ memo_score(adposition('kuluessa'), date(2020, 3, 20), 4).
 memo_score(noun('valuutta'), date(2020, 3, 20), 4).
 memo_score(noun('elokuu'), date(2020, 3, 20), 5).
 
+memo_score(conj(eli), date(2020, 3, 21), 5).
+memo_score(conj('ts.'), date(2020, 3, 21), 0).
+memo_score(phrase('sitä paitsi'), date(2020, 3, 21), 5).
+memo_score(verb(kellua), date(2020, 3, 21), 5).
+memo_score(verb(tutustua), date(2020, 3, 21), 4).
+memo_score(verb(päästä), date(2020, 3, 21), 2).
+memo_score(verb(joutua), date(2020, 3, 21), 1).
+memo_score(verb(todeta), date(2020, 3, 21), 1).
+memo_score(verb(vaatia), date(2020, 3, 21), 1).
+memo_score(verb(esittää), date(2020, 3, 21), 4).
+memo_score(verb(aloittaa), date(2020, 3, 21), 4).
+memo_score(verb(kasvaa), date(2020, 3, 21), 4).
+memo_score(verb(arvioida), date(2020, 3, 21), 5).
+memo_score(verb(tuntea), date(2020, 3, 21), 5).
+memo_score(verb(lisätä), date(2020, 3, 21), 5).
+memo_score(verb(jättää), date(2020, 3, 21), 1).
+memo_score(verb(yrittää), date(2020, 3, 21), 4).
+memo_score(adv(jopa), date(2020, 3, 21), 4).
+memo_score(adv(taas), date(2020, 3, 21), 5).
+memo_score(adv('mm.'), date(2020, 3, 21), 5).
+memo_score(adv('saman tien'), date(2020, 3, 21), 5).
+memo_score(adv('edelleen'), date(2020, 3, 21), 1).
+memo_score(adv('miten'), date(2020, 3, 21), 1).
+memo_score(adj(linjoilla), date(2020, 3, 21), 4).
+memo_score(adj(tärkeä), date(2020, 3, 21), 4).
+memo_score(adj(entinen), date(2020, 3, 21), 4).
+memo_score(adj(kasainvälinen), date(2020, 3, 21), 1).
+memo_score(pron(jokin), date(2020, 3, 21), 5).
+memo_score(noun(harrastus), date(2020, 3, 21), 5).
+memo_score(noun(kokoaminen), date(2020, 3, 21), 5).
+memo_score(noun(torkku), date(2020, 3, 21), 5).
+memo_score(noun(voimassaolo), date(2020, 3, 21), 5).
+memo_score(noun(välilehti), date(2020, 3, 21), 5).
+memo_score(noun(vihollinen), date(2020, 3, 21), 5).
+memo_score(noun(kisa), date(2020, 3, 21), 4).
+memo_score(noun(syy), date(2020, 3, 21), 4).
+memo_score(noun(kilpailu), date(2020, 3, 21), 4).
+memo_score(noun(joukkue), date(2020, 3, 21), 4).
+memo_score(noun(valtio), date(2020, 3, 21), 4).
+memo_score(noun(joukko), date(2020, 3, 21), 4).
+memo_score(noun(tavoite), date(2020, 3, 21), 1).
+memo_score(noun(voitto), date(2020, 3, 21), 1).
+memo_score(noun(ottelu), date(2020, 3, 21), 1).
+memo_score(noun(yhteistyö), date(2020, 3, 21), 3).
+memo_score(noun(tutkimus), date(2020, 3, 21), 4).
+memo_score(adposition(aikana), date(2020, 3, 21), 4).
+
+memo_score(conj('ts.'), date(2020, 3, 21), 3).
+memo_score(verb(päästä), date(2020, 3, 21), 4).
+memo_score(verb(joutua), date(2020, 3, 21), 4).
+memo_score(verb(todeta), date(2020, 3, 21), 4).
+memo_score(verb(vaatia), date(2020, 3, 21), 2).
+memo_score(verb(jättää), date(2020, 3, 21), 4).
+memo_score(adv(edelleen), date(2020, 3, 21), 4).
+memo_score(adv(miten), date(2020, 3, 21), 2).
+memo_score(noun(tavoite), date(2020, 3, 21), 2).
+memo_score(noun(voitto), date(2020, 3, 21), 4).
+memo_score(noun(ottelu), date(2020, 3, 21), 1).
+memo_score(noun(yhtyistyö), date(2020, 3, 21), 4).
+
+memo_score(conj('ts.'), date(2020, 3, 21), 4).
+memo_score(verb(vaatia), date(2020, 3, 21), 2).
+memo_score(adv(miten), date(2020, 3, 21), 4).
+memo_score(noun(tavoite), date(2020, 3, 21), 4).
+memo_score(noun(yhteistyö), date(2020, 3, 21), 4).
 
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 
