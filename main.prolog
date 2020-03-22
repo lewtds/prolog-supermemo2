@@ -496,6 +496,36 @@ meaning(verb(yrittää), '[yritän] to try').
 meaning(noun(auringonlasku), 'sunset').
 meaning(noun(auringonnousu), 'sunrise').
 
+meaning(noun(neuvo), 'advice').
+
+meaning(noun(tulkkaus), 'interpretation').
+
+meaning(verb(pyytää), '[pyydän] to request').
+
+meaning(noun(viranomainen), 'an official, public officer').
+
+meaning(verb(hankkia), '[hankin] to obtain, get, find; purchase').
+
+meaning(adv(muutenkin), 'anyway').
+
+meaning(adj(vakinainen), 'permanent').
+
+meaning(noun(pakolainen), 'refugee').
+
+meaning(noun(velvollisuus), 'responsibility, duty, obligation').
+
+meaning(verb(aikoa), '[aion + inf] intend to, plan to').
+
+meaning(noun(oleskelulupa), 'residence permit').
+
+meaning(noun(työsuhde), 'employment').
+
+meaning(adv(todella), 'really').
+
+meaning(noun(yhteiskunta), 'society').
+
+meaning(verb(käynnistää), '[käynnistän] launch, start').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
