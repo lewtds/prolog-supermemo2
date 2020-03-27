@@ -502,6 +502,9 @@ meaning(noun(tulkkaus), 'interpretation').
 
 meaning(verb(pyytää), '[pyydän] to request').
 
+meaning(noun(pyyntö), 'a request').
+comes_from(noun(pyyntö), verb(pyytää)).
+
 meaning(noun(viranomainen), 'an official, public officer').
 
 meaning(verb(hankkia), '[hankin] to obtain, get, find; purchase').
@@ -525,6 +528,8 @@ meaning(adv(todella), 'really').
 meaning(noun(yhteiskunta), 'society').
 
 meaning(verb(käynnistää), '[käynnistän] launch, start').
+
+meaning(verb(estää), '[estän] to prevent, to stop, to hinder').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
