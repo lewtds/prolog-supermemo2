@@ -531,6 +531,11 @@ meaning(verb(käynnistää), '[käynnistän] launch, start').
 
 meaning(verb(estää), '[estän] to prevent, to stop, to hinder').
 
+meaning(noun(nauhoitus), 'recording').
+comes_from(noun(nauhoitus), verb(nauhoittaa)).
+
+meaning(verb(nauhoittaa), '[nauhoitan] to tape, record').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
