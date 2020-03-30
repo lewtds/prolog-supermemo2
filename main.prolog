@@ -542,6 +542,11 @@ meaning(noun(jako), '(media) sharing').
 
 meaning(verb(koskea), '[kosken] to touch; to apply to, to concern').
 
+meaning(noun(toteuttaminen), 'realization, execution').
+comes_from(noun(toteuttaminen), verb(toteuttaa)).
+
+meaning(verb(toteuttaa), '[toteutan] to realise/realize, carry out, put into practice, implement').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
