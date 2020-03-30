@@ -547,6 +547,15 @@ comes_from(noun(toteuttaminen), verb(toteuttaa)).
 
 meaning(verb(toteuttaa), '[toteutan] to realise/realize, carry out, put into practice, implement').
 
+meaning(noun(hengitys), 'breathing').
+comes_from(noun(hengitys), verb(hengittää)).
+
+meaning(verb(hengittää), '[hengitän] to breathe').
+comes_from(verb(hengittää), noun(henki)).
+
+meaning(noun(henki), 'breath').
+
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
