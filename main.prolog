@@ -536,6 +536,12 @@ comes_from(noun(nauhoitus), verb(nauhoittaa)).
 
 meaning(verb(nauhoittaa), '[nauhoitan] to tape, record').
 
+meaning(noun(ohjauslevy), 'touchpad').
+
+meaning(noun(jako), '(media) sharing').
+
+meaning(verb(koskea), '[kosken] to touch; to apply to, to concern').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
