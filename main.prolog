@@ -555,6 +555,16 @@ comes_from(verb(hengittää), noun(henki)).
 
 meaning(noun(henki), 'breath').
 
+meaning(noun(sateenkaari), 'rainbow').
+
+meaning(noun(eduskunta), 'Finnish Parliament').
+
+meaning(noun(määrä), 'amount, quantity; target, aim, ambition').
+
+meaning(noun(määräys), 'order, command, instruction').
+comes_from(noun(määräys), verb(määrätä)).
+
+meaning(verb(määrätä), '[määrään] to order, command, instruct').
 
 %    5 - perfect response
 %    4 - correct response after a hesitation
