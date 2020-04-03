@@ -566,6 +566,20 @@ comes_from(noun(määräys), verb(määrätä)).
 
 meaning(verb(määrätä), '[määrään] to order, command, instruct').
 
+meaning(verb(vaikuttaa), '[vaikutan + -iin] to influence, to affect').
+
+meaning(noun(kulutus), 'consumption').
+comes_from(noun(kulutus), verb(kuluttaa)).
+
+meaning(verb(kuluttaa), '[kulutan] to spend, to consume').
+
+meaning(adv(verrattuna), '[+ -iin] in comparison with').
+example(adv(verrattuna), 'Kokonaisuudessaan Helsingin sähkönkulutus on vähentynyt jopa 15 % verrattuna normaaliaikaan').
+
+meaning(adv(varsinkin), 'especially, particularly, notably').
+
+meaning(adj(suora), 'live (broadcast)').
+
 %    5 - perfect response
 %    4 - correct response after a hesitation
 %    3 - correct response recalled with serious difficulty
