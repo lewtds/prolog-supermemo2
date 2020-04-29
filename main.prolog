@@ -1243,6 +1243,32 @@ memo_score(adv(miten), date(2020, 3, 21), 4).
 memo_score(noun(tavoite), date(2020, 3, 21), 4).
 memo_score(noun(yhteistyö), date(2020, 3, 21), 4).
 
+memo_score(conj(vaikka), date(2020, 4, 28), 5).
+memo_score(conj(kunnes), date(2020, 4, 28), 2).
+
+memo_score(conj(kunnes), date(2020, 4, 29), 4).
+memo_score(conj('sekä - että'), date(2020, 4, 29), 5).
+memo_score(conj('vaan'), date(2020, 4, 29), 5).
+memo_score(conj('joko - tai'), date(2020, 4, 29), 5).
+memo_score(conj('mikäli'), date(2020, 4, 29), 1).
+memo_score(conj('jotta'), date(2020, 4, 29), 5).
+memo_score(conj('eli'), date(2020, 4, 29), 5).
+memo_score(conj('ts.'), date(2020, 4, 29), 1).
+memo_score(phrase('jotain lisättavää'), date(2020, 4, 29), 4).
+memo_score(phrase('sitä paisti'), date(2020, 4, 29), 3).
+memo_score(phrase('omin voimin'), date(2020, 4, 29), 5).
+memo_score(phrase('mahdollisimman pian'), date(2020, 4, 29), 4).
+memo_score(phrase('hallitus koolla'), date(2020, 4, 29), 4).
+memo_score(verb('antaa'), date(2020, 4, 29), 5).
+memo_score(verb('perustella'), date(2020, 4, 29), 5).
+memo_score(verb('jäädä'), date(2020, 4, 29), 5).
+memo_score(verb('liittyä'), date(2020, 4, 29), 5).
+memo_score(verb('muokata'), date(2020, 4, 29), 5).
+memo_score(verb('kumota'), date(2020, 4, 29), 4).
+memo_score(verb('ohjata'), date(2020, 4, 29), 5).
+memo_score(verb('ladata'), date(2020, 4, 29), 4).
+memo_score(verb('tyhjentää'), date(2020, 4, 29), 4).
+
 % SUPERMEMO-2 https://www.supermemo.com/en/archives1990-2015/english/ol/sm2
 
 study :- forall(next(E), show_entry(E)).
